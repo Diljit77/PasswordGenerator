@@ -1,5 +1,5 @@
 // app/api/vault/[id]/route.ts
-import { NextResponse } from "next/server";
+import { NextRequest, NextResponse } from "next/server";
 import jwt from "jsonwebtoken";
 import VaultItem from "@/app/models/VaultItem";
 import connect from "@/app/lib/mongo.";
@@ -8,7 +8,7 @@ import connect from "@/app/lib/mongo.";
 const JWT_SECRET = process.env.JWT_SECRET!;
 
 export async function DELETE(
-  req: Request,
+  req: NextRequest,
   { params }: { params: { id: string } }
 ) {
   try {
