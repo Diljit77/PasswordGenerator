@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🔐 SecurePass Vault - Password Manager
 
-## Getting Started
+A secure, modern password manager built with Next.js, MongoDB, and state-of-the-art encryption to keep your digital life protected.
 
-First, run the development server:
+## 🎥 Demo
+
+🔗 [Live Demo](https://password-generator-8oy3.vercel.app/vault) 
+
+
+## ✨ Features
+
+### 🔒 Security First
+- **End-to-End Encryption** - Your data is encrypted before it leaves your device
+- **Zero-Knowledge Architecture** - We never see your passwords
+- **Military-Grade Encryption** - AES-256 encryption for maximum security
+- **Secure Password Generator** - Create strong, unique passwords instantly
+
+### 🎨 Modern Interface
+- **Dark/Light Mode** - Beautiful themes for comfortable usage
+- **Responsive Design** - Works perfectly on all devices
+- **Intuitive Vault** - Easy-to-use password management
+- **Real-time Search** - Find your passwords quickly
+
+### ⚡ Advanced Features
+- **Password Strength Analysis** - Visual feedback on password security
+- **Auto-Logout** - Enhanced security with automatic session management
+- **Cross-Platform** - Access your vault from anywhere
+- **Secure Sharing** - Safely share passwords with trusted contacts
+
+## 🧑‍💻 Getting Started (Local Setup)
+
+### 1. Clone the Repository
 
 ```bash
+git clone <repo_url>
+cd your-repo
+```
+#### 2. setup 
+```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Developed By
+Daljit singh
